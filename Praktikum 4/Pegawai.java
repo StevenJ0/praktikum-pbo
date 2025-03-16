@@ -110,11 +110,10 @@ public class Pegawai {
         System.out.println("NIP          : " + nip);
         System.out.println("Nama         : " + nama);
         System.out.println("Tanggal Lahir: " + getTanggalLahir());
-        System.out.println("Jabatan      : " + jabatan);
-        System.out.println("Usia         : " + usia + " tahun");
         System.out.println("TMT          : " + getTMT());
-        System.out.println("Gaji Pokok   : Rp " + String.format("%,d", gajiPokok));
+        System.out.println("Jabatan      : " + jabatan);
         System.out.println("Masa Kerja   : " + hitungMasaKerja());
+        System.out.println("Gaji Pokok   : Rp " + String.format("%,d", gajiPokok));
     }
 
 }

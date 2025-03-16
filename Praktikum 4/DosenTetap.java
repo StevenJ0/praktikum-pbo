@@ -55,8 +55,8 @@ public class DosenTetap extends Pegawai {
     }
 
     public void printInfo() {
-        super.printInfo();
         System.out.println("NIDN         : " + NIDN);
+        super.printInfo();
         System.out.println("Tunjangan    : Rp " + String.format("%,d", tunjangan));
         System.out.println("BUP          : " + BUP());
     }
